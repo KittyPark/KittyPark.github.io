@@ -1,0 +1,6 @@
+---
+title : Example
+date : YYYY-MM-DD HH:MM:SS +/-TTTT
+categories : [example]
+tags : [example] #소문자만 가능
+---
