@@ -77,15 +77,22 @@
 
       {% if url %}
       <a href="{{ url }}" aria-label="{{ entry.type }}"
+        {% assign link_types = nil %}
         {% unless entry.noblank %}
-       {% unless site.theme_mode %}class="order-{{ forloop.index | plus: 2 }}"{% endunless %}
-        {% unless entry.noblank %}target="_blank" rel="noopener"{% endunless %}>
-          <i class="{{ entry.icon }}"></i>
+          {% assign link_types = link_types | append: " noopener" %}
+          target="_blank"
+        {% endunless %}
+
+        {% if entry.type == 'mastodon' %}
+          {% assign link_types = link_types | append: " me" %}
+        {% endif %}
+
+        {% if link_types %}rel="{{ link_types | lstrip }}"{% endif %}>
+        <i class="{{ entry.icon }}"></i>
       </a>
       {% endif %}
 
     {% endfor %}
-    
 
   </div> <!-- .sidebar-bottom -->
 
