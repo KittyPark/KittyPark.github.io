@@ -1,6 +1,6 @@
 ---
 title : Example
-date : YYYY-MM-DD HH:MM:SS +/-TTTT
+date : YYYY-MM-DD HH:MM:SS +09:00
 categories : [example]
 tags : [example] #소문자만 가능
 ---
