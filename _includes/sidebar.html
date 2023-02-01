@@ -77,22 +77,24 @@
 
       {% if url %}
       <a href="{{ url }}" aria-label="{{ entry.type }}"
-        {% assign link_types = nil %}
         {% unless entry.noblank %}
-          {% assign link_types = link_types | append: " noopener" %}
-          target="_blank"
-        {% endunless %}
-
-        {% if entry.type == 'mastodon' %}
-          {% assign link_types = link_types | append: " me" %}
-        {% endif %}
-
-        {% if link_types %}rel="{{ link_types | lstrip }}"{% endif %}>
-        <i class="{{ entry.icon }}"></i>
+       {% unless site.theme_mode %}class="order-{{ forloop.index | plus: 2 }}"{% endunless %}
+        {% unless entry.noblank %}target="_blank" rel="noopener"{% endunless %}>
+          <i class="{{ entry.icon }}"></i>
       </a>
       {% endif %}
 
     {% endfor %}
+    
+    {% unless site.theme_mode %}
+      {% if site.data.contact.size > 0 %}
+        <span class="icon-border order-2"></span>
+      {% endif %}
+
+      <span id="mode-toggle-wrapper" class="order-1">
+        {% include mode-toggle.html %}
+      </span>
+    {% endunless %}
 
   </div> <!-- .sidebar-bottom -->
 
