@@ -4,16 +4,18 @@
   type: github
   icon: 'fab fa-github'
 -
-  type: twitter
-  icon: 'fab fa-twitter'
+  type: instagram
+  icon: 'fab fa-instagram'
+  url: 'https://www.instagram.com/sungjun_today/'
 -
   type: email
   icon: 'fas fa-envelope'
   noblank: true            # open link in current tab
 -
-  type: rss
-  icon: 'fas fa-rss'
+  type: telegram
+  icon: 'fa-brands fa-telegram'
   noblank: true
+  url: 'https://www.telegram.org'
 
 # Uncomment and complete the url below to enable more contact options
 # -
