@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://KittyPark.github.io/sitemap.xml
+#DaumWebMasterTool:12ef7560b571e15bf0cccdf766a95509eb8a232c8d8f5d54f82e4d894c6c5a0b:MYVczi8grD168pXNQS/E5g==
