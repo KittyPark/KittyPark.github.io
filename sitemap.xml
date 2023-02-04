@@ -1,31 +1,32 @@
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<url>
-<loc>https://kittypark.github.io/categories/</loc>
-<lastmod>2023-02-01T10:47:14+09:00</lastmod>
-</url>
-<url>
-<loc>https://kittypark.github.io/tags/</loc>
-<lastmod>2023-02-01T10:47:14+09:00</lastmod>
-</url>
-<url>
-<loc>https://kittypark.github.io/archives/</loc>
-<lastmod>2023-02-01T10:47:14+09:00</lastmod>
-</url>
-<url>
-<loc>https://kittypark.github.io/about/</loc>
-<lastmod>2023-02-01T10:47:14+09:00</lastmod>
-</url>
-<url>
-<loc>https://kittypark.github.io/about/</loc>
-</url>
-<url>
-<loc>https://kittypark.github.io/</loc>
-</url>
-<url>
-<loc>https://kittypark.github.io/</loc>
-</url>
-<url>
-<loc>https://kittypark.github.io/google195e3602de79762b.html</loc>
-<lastmod>2023-02-01T10:47:03+09:00</lastmod>
-</url>
+---
+layout: null
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {% for post in site.posts %}
+    <url>
+        <loc>{{ site.url }}{{ post.url }}</loc>
+        {% if post.lastmod == null %}
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+        {% else %}
+        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+        {% endif %}
+
+        {% if post.sitemap.changefreq == null %}
+        <changefreq>weekly</changefreq>
+        {% else %}
+        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
+        {% endif %}
+
+        {% if post.sitemap.priority == null %}
+        <priority>0.5</priority>
+        {% else %}
+        <priority>{{ post.sitemap.priority }}</priority>
+        {% endif %}
+
+    </url>
+    {% endfor %}
 </urlset>
