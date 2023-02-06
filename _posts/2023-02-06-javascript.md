@@ -1,7 +1,7 @@
 ---
 layout : post
 title : Understanding the Basics of JavaScript
-date: '2023-02-06 10:47:00 +0900'
+date: '2023-02-06 10:47:00 +09:00'
 categories : [Daily,ChatGPT]
 tags : [chatgpt,coding,blog,computer,cs,computer science,javascript] #소문자만 가능
 ---
