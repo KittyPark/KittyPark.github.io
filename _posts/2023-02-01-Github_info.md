@@ -1,7 +1,7 @@
 ---
 layout : post
 title : Github Tip , 깃허브 팁, Github information
-date: '2023-02-01 20:13:00 +0900'
+date: '2023-02-01 20:13:00 +09:00'
 categories : [Study,Git]
 tags : [github,git,commitmsg] #소문자만 가능
 ---
