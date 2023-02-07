@@ -4,6 +4,7 @@ title : Understanding the Basics of JavaScript
 date: '2023-02-06 10:47:00 +09:00'
 categories : [Daily,ChatGPT]
 tags : [chatgpt,coding,blog,computer,cs,computer science,javascript] #소문자만 가능
+author : kittypark
 ---
 
 ## Understanding the Basics of JavaScript
