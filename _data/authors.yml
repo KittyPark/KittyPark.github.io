@@ -6,7 +6,6 @@
 #   url: {homepage_of_author}
 # -------------------------------------
 
-kittypark:
+author:
   name: Park Sung Jun
-  web : https://kittypark.github.io
   url: https://github.com/KittyPark/
