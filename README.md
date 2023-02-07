@@ -1,6 +1,6 @@
 <div align="center">
  <h1>
-     <a href = "[./Images/00.png](https://kittypark.github.io)">👻 &nbsp&nbsp KittyPark Blog !! &nbsp&nbsp 👻</a>
+     <a href ="https://kittypark.github.io">👻 &nbsp&nbsp KittyPark Blog !! &nbsp&nbsp 👻</a>
    <h1> 
 </div>
 
