@@ -40,8 +40,6 @@ layout: default
       {% include update-list.html %}
       {% include trending-tags.html %}
     </div>
-      {% include adfit1.html %} <!-- 카카오 애드핏 배너 광고 위치 -->
-
     {% for _include in layout.panel_includes %}
       {% assign _include_path = _include | append: '.html' %}
       {% include {{ _include_path }} %}
