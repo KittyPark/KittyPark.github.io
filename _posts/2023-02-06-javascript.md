@@ -6,7 +6,7 @@ categories : [Daily,ChatGPT]
 tags : [chatgpt,coding,blog,computer,cs,computer science,javascript] #소문자만 가능
 ---
 
-# Understanding the Basics of JavaScript
+## Understanding the Basics of JavaScript
 
 JavaScript is a high-level programming language that is widely used for developing dynamic and interactive web pages. With its versatility and ease of use, JavaScript has become one of the most popular programming languages in the world. In this blog post, we'll explore the basics of JavaScript and what makes it such a valuable tool for web development.
 
