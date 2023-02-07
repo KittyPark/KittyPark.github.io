@@ -248,16 +248,3 @@ $(function () {
     }
 
 });
-
-function adblockChecker() {
-    setTimeout(() => {
-        const adArea = document.querySelectorAll('.kakao_ad_area');
-        for (var i = 0; i < adArea.length; i++) {
-            if (!adArea[i].hasChildNodes()) {
-                alert('이 블로그는 광고 수입을 통해 운영됩니다.\nAd Block 확장 프로그램을 꺼주신 후 콘텐츠를 감상해주세요.');
-                document.querySel('body').innerHTML = '';
-                break;
-            }
-        }
-    }, 2000);
-}
