@@ -84,12 +84,16 @@ order: 4
 
 ## Project
 
+---
+
 [API 업비트 를 이용한 자동매매 구현]
 내용 : PYQT GUI 를 이용하여 를 구성하여 크롤링으로 실시간 시세  
 업데이트와 변동성 돌파 전략을 통한 자동매매 구현. 
 기술스택 : Python , SQL, MariaDB, PYQT5. 
 
 <br>
+
+---
 
 [ App 로또 번호 추출 구글 플레이스토어 출시 (JAVA , 공부 배포 과정 공부 목적)]
 내용 : 이 프로젝트는 안드로이드 스튜디오를 활용하여 자바 언어를 공부하고 직접 App을 만들어 출시를 함과 동시에 광고를 달아조금의 수익창출을 목표로 시작 자바를 처음 접하는 것이기 때문에 버튼을 누르면 로또 번호를 랜덤으로 생성하여 크기 순으로 보여주는 간단한 Logic 이용. 한국 버전으로 만든 이후 다른 나라의 로또는 한국과 숫자 범위나 당첨 개수 등이 다르기 때문에 일본 버전도 출시.
@@ -102,12 +106,15 @@ order: 4
 
 [플레이스토어 LINK] 
 <br>
+
 [로또앱1](https://play.google.com/store/apps/details?id=com.clover.lottery&pli=1)  
-[일본버전1](https://play.google.com/store/apps/details?id=com.clover.lotteryjapan2) 
-[일본버전2](https://play.google.com/store/apps/details?id=com.clover.lotteryjapan3)  
-[일본버전3](https://play.google.com/store/apps/details?id=com.clover.lotteryjapan)  
+[일본버전1](https://play.google.com/store/apps/details?id=com.clover.lotteryjapan2) <br>
+[일본버전2](https://play.google.com/store/apps/details?id=com.clover.lotteryjapan3)  <br>
+[일본버전3](https://play.google.com/store/apps/details?id=com.clover.lotteryjapan)  <br>
 
 <br>
+
+---
 
 [ API 텔레그램 를 이용한 주식 코인 , 뉴스 알림 봇] 
 <br> 
@@ -125,11 +132,19 @@ order: 4
 
 ---
 
+[가상화폐 백서 표절 검사 알고리즘 with 트라움인포테크]
+
+가상화폐 백서의 내용을 자연어처리를 이용하여 임베딩하여 벡터화 시킨 후 wasserstein distance 를 이용하여 유사도를 검사하여 표절 검사 알고리즘을 개발함
+
+기술스택 : flask, python, MariaDB
+
+---
 [ ToDoList ]
 <br>
 신한투자증권에서 vue.js 를 이용하여 간단한 ToDoList를 firebase와 연동하여 구현.
 <br>
 [link](https://todolist-88a4e.web.app/)
 
+기술스택 : vue.js , firebase
 
 
