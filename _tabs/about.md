@@ -30,13 +30,13 @@ order: 4
 
   <br>
 
-  ---
-  
-<br>
 
-  ![Solved.ac Profile](https://mazassumnida.wtf/api/v2/generate_badge?boj=tjdwns9574)
-  ![Solved.ac Strick](https://mazandi.herokuapp.com/api?handle=tjdwns9574&theme=cold)
+</div>
 
+---
+<div align=center> 
+  <img src="https://mazassumnida.wtf/api/v2/generate_badge?boj=tjdwns9574">
+  <img src="https://mazandi.herokuapp.com/api?handle=tjdwns9574&theme=cold">
 </div>
 
 ---
@@ -99,7 +99,6 @@ order: 4
 
 [플레이스토어 LINK] 
 <br>
-
 https://play.google.com/store/apps/details?id=com.clover.lottery&pli=1  
 https://play.google.com/store/apps/details?id=com.clover.lotteryjapan2  
 https://play.google.com/store/apps/details?id=com.clover.lotteryjapan3  
@@ -108,9 +107,7 @@ https://play.google.com/store/apps/details?id=com.clover.lotteryjapan
 <br>
 
 [ API 텔레그램 를 이용한 주식 코인 , 뉴스 알림 봇] 
-
 <br> 
-
 이 프로젝트는 네이버 금융 뉴스 오른쪽 부분에 있는 사람들이 가장 많이 본 뉴스를 크롤링하여 정해진 시간에 텔레그램으로 뉴스를 보내주는프로젝트 파이썬 프로그램을 24시간 실행 시켜야 하기 때문에 오라클 서버를 이용하여 프로그램을 돌리는방식으로 구현
 
 <br>
@@ -121,7 +118,6 @@ https://play.google.com/store/apps/details?id=com.clover.lotteryjapan
 
 [링크] 
 <br>
-
 https://github.com/KittyPark/News_Bot
 
 ---
