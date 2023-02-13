@@ -68,8 +68,6 @@ order: 4
 
 ---
 
-<br>
-
 ## 💡 Contact
 📭  kittypark.github.io@gmail.com 
 
