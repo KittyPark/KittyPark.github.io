@@ -94,16 +94,18 @@ order: 4
 [ App 로또 번호 추출 구글 플레이스토어 출시 (JAVA , 공부 배포 과정 공부 목적)]
 내용 : 이 프로젝트는 안드로이드 스튜디오를 활용하여 자바 언어를 공부하고 직접 App을 만들어 출시를 함과 동시에 광고를 달아조금의 수익창출을 목표로 시작 자바를 처음 접하는 것이기 때문에 버튼을 누르면 로또 번호를 랜덤으로 생성하여 크기 순으로 보여주는 간단한 Logic 이용. 한국 버전으로 만든 이후 다른 나라의 로또는 한국과 숫자 범위나 당첨 개수 등이 다르기 때문에 일본 버전도 출시.
 
+<br>
+
 기술스택 : Android Studio , JAVA
 
 <br>
 
 [플레이스토어 LINK] 
 <br>
-https://play.google.com/store/apps/details?id=com.clover.lottery&pli=1  
-https://play.google.com/store/apps/details?id=com.clover.lotteryjapan2  
-https://play.google.com/store/apps/details?id=com.clover.lotteryjapan3  
-https://play.google.com/store/apps/details?id=com.clover.lotteryjapan  
+[로또앱1](https://play.google.com/store/apps/details?id=com.clover.lottery&pli=1)  
+[일본버전1](https://play.google.com/store/apps/details?id=com.clover.lotteryjapan2) 
+[일본버전2](https://play.google.com/store/apps/details?id=com.clover.lotteryjapan3)  
+[일본버전3](https://play.google.com/store/apps/details?id=com.clover.lotteryjapan)  
 
 <br>
 
@@ -119,6 +121,15 @@ https://play.google.com/store/apps/details?id=com.clover.lotteryjapan
 
 [링크] 
 <br>
-https://github.com/KittyPark/News_Bot
+[link](https://github.com/KittyPark/News_Bot)
 
 ---
+
+[ ToDoList ]
+<br>
+신한투자증권에서 vue.js 를 이용하여 간단한 ToDoList를 firebase와 연동하여 구현.
+<br>
+[link](https://todolist-88a4e.web.app/)
+
+
+
