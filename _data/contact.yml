@@ -11,11 +11,6 @@
   type: email
   icon: 'fas fa-envelope'
   noblank: true            # open link in current tab
--
-  type: telegram
-  icon: 'fa-brands fa-telegram'
-  noblank: true
-  url: 'https://www.telegram.org'
 
 # Uncomment and complete the url below to enable more contact options
 # -
