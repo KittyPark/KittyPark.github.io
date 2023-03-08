@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-
+<div align = "center">
 <div><button class="custom-btn btn-12" onClick="location.href='https://toss.me/kittyjun'"><span>Thank You!</span><span>후 원</span></button>
 </div>
 <div><a href="https://www.buymeacoffee.com/kittyparkgW"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=kittyparkgW&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
@@ -100,6 +100,7 @@ background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
   transform: rotateX(-90deg);
 }
     </style>
+  </div>
 ---
 <h3 align="center">🛠 Tech Stack 🛠</h3>
 <br>
